@@ -1,0 +1,116 @@
+/* Reset beberapa elemen untuk tampilan yang bersih */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff66b2, #ff3399); /* Gradient background yang menarik */
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    height: 100vh; /* Mengatur tinggi halaman menjadi 100% dari tinggi viewport */
+    display: flex; /* Flexbox diaktifkan pada body */
+    justify-content: center; /* Menyusun konten di tengah horizontal */
+    align-items: center; /* Menyusun konten di tengah vertikal */
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+}
+
+/* Halaman konten utama */
+.page {
+    padding: 40px;
+    max-width: 800px; /* Maksimal lebar untuk konten */
+    width: 100%; /* Lebar penuh hingga batas maksimal */
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    text-align: center;
+    display: flex; /* Flexbox di dalam halaman */
+    flex-direction: column; /* Susun konten secara vertikal */
+    justify-content: center; /* Isi konten vertikal berada di tengah */
+    align-items: center; /* Isi konten horizontal berada di tengah */
+}
+
+/* Halaman 1 */
+#page1 {
+    display: block; /* Halaman 1 ditampilkan pertama kali */
+}
+
+#page1 h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #ff3399;
+    margin-bottom: 20px;
+}
+
+/* Halaman 2 */
+#page2 h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff66b2;
+}
+
+#page2 blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #ff3399;
+    margin: 10px 0;
+}
+
+#page2 p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Halaman 3 */
+#page3 h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff3399;
+}
+
+.motivational-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#motivationalMessage {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #32cd32;
+}
+
+/* Tombol */
+button {
+    background-color: #ff3399;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff66b2;
+}
+
+/* Footer */
+footer {
+    background-color: #ff66b2;
+    padding: 15px;
+    color: white;
+    margin-top: 40px;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+}
